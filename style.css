@@ -1,0 +1,425 @@
+/*
+Theme Name: Andriana Style Custom Blog
+Theme URI:
+Author: Andriana Style
+Author URI:
+Description: Andriana Style Blog is a part of Andriana Style Web Page
+Version: 1.0
+*/
+
+html {
+	background-color: #fcfcfc;	
+}
+
+body {
+	max-width: 1100px;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+	margin:auto;
+}
+
+
+/*********************************************
+         NAVIGATION
+*********************************************/
+
+.menu {
+	margin:auto;
+  text-align: center;
+}
+
+.menu-element-container {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.menu-element-container-1,
+.menu-element-container-2 {
+	border-top:1px solid #ef4672;
+	border-bottom:1px solid #ef4672;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.menu-element-container-1 {
+	margin-right:20px;
+
+}
+
+.menu-element-container-2 {
+	margin-left:5px;
+}
+
+.menu-element-container a:hover {
+	color:#ef4672;
+}
+
+.selected {
+	color:#ef4672;
+}
+
+.menu-element-container a {
+ text-decoration:none;
+ color:#000;
+}
+
+.menu-element-1 {
+	padding-right:14px;
+	padding-left: 14px;
+	font-weight:bold;
+}
+
+.menu-element-2 {
+	padding-left:14px;
+	padding-right:14px;
+	font-weight:bold;
+}
+
+
+/*************************************
+         SLIDER ON MAIN PAGE
+*************************************/
+
+.slider {
+	margin-top:20px;
+}
+
+.slide {
+	display:block;
+	width:100%;
+}
+
+
+/************************************
+         PORTFOLIO
+************************************/
+
+.clearfix:after {
+	content:'';
+	display: table;
+	clear: both;
+}
+
+.title {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom:5%;
+}
+
+.main-wrapper {
+  width: 100%;
+  margin:0 auto;
+}
+
+.main-section {
+  float: left;
+  width: 80%;
+}
+
+.side-bar {
+	width: 20%;
+  height: 100%;
+  float:right;
+}
+
+.main-section-list {
+	padding-left:5px;
+}
+
+.main-section-item {
+	list-style-type: none;
+	float: left;
+	width: 30%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+
+.main-section-list img{
+  width: 95%;
+}
+
+.callback {
+	text-align: center;
+	background: lightblue;
+  border-radius: 20px 20px;
+  padding: 2% 3%;
+  padding-bottom: 10%;
+}
+
+.feedback {
+	margin-top: 45%;
+	padding-top: 15%;
+	padding-bottom: 5%;
+	text-align: center;
+	background-color: #fbe8ed;
+	border-radius: 20px 20px;
+	overflow:hidden;
+}
+
+.longline {
+		width: 1000px;
+}
+
+.feedback-slide {
+	float:left;
+	width: 220px;
+	margin-left: 0;
+}
+
+.feedback img {
+	border-radius: 50%;
+}
+
+.feedback p {
+	padding-bottom: 2%;
+}
+
+.button {
+  display: inline-block;
+}
+
+.button-left {
+  width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 20px solid rgba(200,200,200, 0.4);
+	border-bottom: 10px solid transparent;
+	margin-right:17%;
+}
+
+.button-right {
+ width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid rgba(200,200,200, 0.4);
+	border-bottom: 10px solid transparent;
+	margin-left: 17%;
+}
+
+
+/************************************
+        CENI
+************************************/
+
+.table-of-prices {
+  border-collapse:collapse;
+  margin-left:3%;
+  margin-right:5%;
+  margin-top: 2%;
+}
+
+.table-row {
+	text-align: center;
+}
+
+.td-vertical-title,
+.td-horiz-title {
+	font-weight:bold;
+}
+
+.table-of-prices td {
+	border: 2px solid rgba(200,200,200, 0.4);
+	padding:2%;
+	overflow: hidden;
+}
+
+
+/************************************
+        PRICHESKI
+************************************/
+
+.tabs-nav {
+	padding-left: 0;
+  text-align: center;
+} 
+
+.tabs-nav li {
+	list-style-type:none;
+	display: inline-block;
+	margin: 0 1%;
+}
+
+.tabs-nav li:hover  a{
+  border-top: 1px solid #ef4672;
+	border-bottom: 1px solid #ef4672;
+	color:#ef4672;
+}
+
+.tabs-nav a {
+	color: #000;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+.active-tab {
+	border-top: 1px solid #ef4672;
+	border-bottom: 1px solid #ef4672;
+}
+
+.active-tab {
+	color:#ef4672 !important;
+}
+
+.tabs li {
+	padding:1% 0;
+}
+
+
+
+/************************************
+        STYLISTY
+************************************/
+
+.section-st {
+	text-align: center;
+	padding-right: 10%;
+	padding-left: 10%;
+	margin-bottom: 10%;
+}
+
+.table-of-stylists {
+	margin: 0 auto;
+}
+
+.td-horiz-st1, .td-horiz-st3 {
+  padding-left: 5%;
+}
+
+.td-horiz-st2, .td-horiz-st4 {
+  padding-right: 5%;
+}
+
+.td-horiz-st img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+/************************************
+        BLOG
+************************************/
+
+  html {
+  	margin-top:0 !important;
+  }
+
+.main-section-blog { 
+    width: 60%;
+    padding-left: 5%;
+  }
+
+#secondary {
+	background-color: lightblue;
+  border-radius: 20px;
+  padding: 8%;
+}
+
+
+/************************************
+        FOOTER
+************************************/
+
+.footer-container {
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	position:relative;
+}
+
+.social-icon {
+	height:100%;
+	width:100%;
+}
+
+.footer-element {
+	display:inline-block;
+}
+
+.social-icon-container {
+	margin-left:5px;
+}
+
+.footer-element a:nth-child(2) {
+	margin-left:9px;
+	margin-right:5px;
+}
+
+
+.line {
+	  background-color: #ef4672;
+    width: 43%;
+    height: 1px;
+    margin-top:10px;
+}
+
+.line1 {
+	float:left;
+}
+
+.line2 {
+	float:right;
+}
+
+.instagram {
+	display:inline-block;
+	width:21px;
+	height:21px;
+	background: url('social-sprites.png') no-repeat 54% 3%;
+	background-size:333% 200%;
+}
+
+.instagram:hover {
+	display:inline-block;
+	width:21px;
+	height:21px;
+	background: url('social-sprites.png') no-repeat 54% 98%;
+	background-size:333% 200%;
+}
+
+
+.vk {
+	display:inline-block;
+	width:21px;
+	height:21px;
+	background: url('social-sprites.png') no-repeat 0% 3%;
+	background-size:333% 200%;
+}
+
+.vk:hover {
+	display:inline-block;
+	width:21px;
+	height:21px;
+	background: url('social-sprites.png') no-repeat 0% 98%;
+	background-size:333% 200%;
+}
+
+.periscope {
+	display:inline-block;
+	width:21px;
+	height:21px;
+	background: url('social-sprites.png') no-repeat 100% 3%;
+	background-size:333% 200%;
+}
+
+.periscope:hover {
+	display:inline-block;
+	width:21px;
+	height:21px;
+	background: url('social-sprites.png') no-repeat 100% 98%;
+	background-size:333% 200%;
+}
+
+
+.copyright {
+	position:absolute;
+	top:50%;
+	left:0;
+}
